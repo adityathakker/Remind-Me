@@ -2,9 +2,8 @@ import subprocess
 from os.path import expanduser
 import os
 
-
 home_dir = expanduser("~")
-path_to_main_dir = home_dir + "/.next_boot_reminder"
+path_to_main_dir = home_dir + "/.remind_me"
 path_to_main_file = path_to_main_dir + "/reminders"
 
 def does_it_exists(path_to_file):

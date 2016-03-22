@@ -3,7 +3,7 @@ from os.path import expanduser
 import os
 
 home_dir = expanduser("~")
-path_to_main_dir = home_dir + "/.next_boot_reminder"
+path_to_main_dir = home_dir + "/.remind_me"
 path_to_aliases = home_dir + "/.bash_aliases"
 path_to_cwd = os.getcwd()
 
