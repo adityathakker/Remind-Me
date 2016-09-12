@@ -16,11 +16,11 @@ def is_file_empty():
 	return os.stat(path_to_main_file).st_size==0
 
 if not does_it_exists(path_to_main_dir):
-	subprocess.Popen("notify-send --urgency=normal --expire-time=1000 \"Andy\'s Next Boot Reminder\" \"Required Files Missing. Please execute the \"setup.py\" first.\"", shell=True, stdout=subprocess.PIPE)
+	subprocess.Popen("notify-send --urgency=normal --expire-time=1000 \"Next Boot Reminder\" \"Required Files Missing. Please execute the \"setup.py\" first.\"", shell=True, stdout=subprocess.PIPE)
 	exit()
 
 if is_file_empty():
-	subprocess.Popen("notify-send --urgency=normal -i /usr/share/icons/gnome/32x32/devices/drive-multidisk.png --expire-time=1000 \"Andy\'s Next Boot Reminder\" \"No Remiders For Now!\"", shell=True, stdout=subprocess.PIPE)
+	subprocess.Popen("notify-send --urgency=normal -i /usr/share/icons/gnome/32x32/devices/drive-multidisk.png --expire-time=1000 \"Next Boot Reminder\" \"No Remiders For Now!\"", shell=True, stdout=subprocess.PIPE)
 	exit()
 
 
