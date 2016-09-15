@@ -25,7 +25,7 @@ if not does_it_exists(path_to_aliases):
 
 if does_it_exists(path_to_aliases):
 	aliases_file = open(path_to_aliases,"a")
-	aliases_file.write("\nalias remindme=\"python " + path_to_cwd + "/remind_me.py $1\"")
+	aliases_file.write("\nalias remindme=\"python " + path_to_cwd.replace(" ", "\ ") + "/remind_me.py $1\"")
 	aliases_file.close()
 	print "Alias Created"
 
