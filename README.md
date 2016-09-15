@@ -8,8 +8,8 @@
 <p>Just clone the repository to your machine. Go the downloaded files directory and execute the <b>setup.py</b>.</p><br/>
 
 <p><h2>How To Use</h2></p>
-<p>Once you have executed <b>setup.py</b> file, you can use command <b>"remindme"</b> in your terminal to add reminders to the list of reminders.</p><br/>
-<p>Example: remindme "To mail Arya Stark"</p><br/>
+<p>Once you have executed <b>setup.py</b> file, you can use command <b>"remindme"</b> in your terminal to add reminders to the list of reminders.<br/>
+Example: <b>remindme "To mail Arya Stark"</b></p><br/>
 
 <p><h2>How I Use It</h2></p>
 <p>I have added this program to my startup applications so that it reminds me to do tasks that are pending, every time my laptop boots.</p>
